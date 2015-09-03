@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.31)  1 SEP 2015 00:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.31)  3 SEP 2015 09:35
 entering extended mode
 **projektplan.tex
 (projektplan.tex
@@ -371,81 +371,127 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
  [2
 
-] [3]
-LaTeX Font Info:    Try loading font information for OMS+aer on input line 131.
+]
+Runaway argument?
+scale=1.5]{makingravioli.jpg} \end {figure} 
+! Paragraph ended before \Gin@iii was complete.
+<to be read again> 
+                   \par 
+l.60 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 135.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\omsaer.fd"
 File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 135.
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+aett on input line 166.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 170.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-Underfull \hbox (badness 2302) in paragraph at lines 166--167
+Underfull \hbox (badness 2302) in paragraph at lines 170--171
 []\T1/aer/m/n/10 Hosting för ver-sions-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 \T1/aer/m/n/10 han-te-ring. An-vän-der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 \T1/aer/m/n/10 del-vis fri mjuk-va-ra.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Overfull \hbox (6.35538pt too wide) in paragraph at lines 189--190
-[]\T1/aer/m/n/10 Rapporteringen sker in-ternt in-om grup-pen fär att fär-säk-ra
- grupp-
- []
+! LaTeX Error: Not in outer par mode.
 
-[5]
-Overfull \hbox (2.22311pt too wide) in paragraph at lines 241--241
-[]\T1/aer/bx/n/14.4 Uppföljning, rap-por-te-ring och kva-li-tets-säk-ring 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.235 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-[6] [7]
-Overfull \hbox (2.28627pt too wide) in paragraph at lines 332--343
-[]\T1/aer/m/n/10 Att vår kom-mu-ni-ka-tions-cen-tral över in-
- []
 
-[8] (projektplan.aux) ) 
+! LaTeX Error: \begin{figure} on input line 57 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{document}
+                                     % The input file ends with this command.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(projektplan.aux)
+! You can't use `\end' in internal vertical mode.
+\enddocument ... \endgroup \deadcycles \z@ \@@end 
+                                                  
+l.367 \end{document}
+                                     % The input file ends with this command.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{figure} on input line 57 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{document}
+                                     % The input file ends with this command.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.367 \end{document}
+                                     % The input file ends with this command.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+! Emergency stop.
+<*> projektplan.tex
+                   
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 2524 strings out of 493673
- 32336 string characters out of 3141524
- 97086 words of memory out of 3000000
+ 2521 strings out of 493673
+ 32318 string characters out of 3141524
+ 117086 words of memory out of 3000000
  5824 multiletter control sequences out of 15000+200000
- 28712 words of font info for 61 fonts, out of 3000000 for 9000
+ 27845 words of font info for 58 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 28i,9n,23p,250b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.
-pfb>
-Output written on projektplan.pdf (8 pages, 138749 bytes).
-PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 28i,11n,23p,250b,385s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
