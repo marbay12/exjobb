@@ -3,11 +3,20 @@
 \contentsline {subsection}{\numberline {1.1}Projektmodell}{4}
 \contentsline {subsection}{\numberline {1.2}Utvecklad produkt}{4}
 \contentsline {subsection}{\numberline {1.3}Syfte och M\IeC {\r a}l}{4}
+<<<<<<< HEAD
+<<<<<<< HEAD
+\contentsline {subsubsection}{\numberline {1.3.1}F\IeC {\"o}retagsm\IeC {\r a}l}{4}
+=======
 \contentsline {subsubsection}{\numberline {1.3.1}F\IeC {\"o}retagsm\IeC {\r a}l}{5}
+>>>>>>> d6ab2b47eb021718861ee7ecbe8affab6ecacd1d
+=======
+\contentsline {subsubsection}{\numberline {1.3.1}F\IeC {\"o}retagsm\IeC {\r a}l}{5}
+>>>>>>> d6ab2b47eb021718861ee7ecbe8affab6ecacd1d
 \contentsline {subsubsection}{\numberline {1.3.2}Produktm\IeC {\r a}l}{5}
 \contentsline {subsubsection}{\numberline {1.3.3}Projektm\IeC {\r a}l}{5}
 \contentsline {subsection}{\numberline {1.4}Begr\IeC {\"a}nsningar}{5}
 \contentsline {section}{\numberline {2}Metod}{5}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {3}Kunskapsl\IeC {\"a}ge}{5}
 \contentsline {section}{\numberline {4}Projektorganisation}{5}
 \contentsline {subsection}{\numberline {4.1}Utvecklingsorganisation}{5}
@@ -21,4 +30,19 @@
 \contentsline {subsection}{\numberline {7.2}Tidplanering}{8}
 \contentsline {section}{\numberline {8}Uppf\IeC {\"o}ljning, rapportering och kvalitetss\IeC {\"a}kring}{8}
 \contentsline {section}{\numberline {9}Riskanalys}{8}
+=======
+\contentsline {section}{\numberline {3}Projektorganisation}{5}
+\contentsline {subsection}{\numberline {3.1}Utvecklingsorganisation}{5}
+\contentsline {subsection}{\numberline {3.2}Intressenter}{5}
+\contentsline {section}{\numberline {4}Krav p\IeC {\r a} h\IeC {\r a}rdvara och programvara}{6}
+\contentsline {section}{\numberline {5}Nedbrytning av arbete}{6}
+\contentsline {subsection}{\numberline {5.1}Aktiviteter}{6}
+\contentsline {subsection}{\numberline {5.2}Leverabler}{7}
+\contentsline {section}{\numberline {6}Uppgifter}{7}
+\contentsline {subsection}{\numberline {6.1}Milstolpar}{7}
+\contentsline {subsection}{\numberline {6.2}Tidplanering}{7}
+\contentsline {section}{\numberline {7}Uppf\IeC {\"o}ljning, rapportering och kvalitetss\IeC {\"a}kring}{7}
+\contentsline {section}{\numberline {8}Riskanalys}{8}
+\contentsline {section}{\numberline {9}Referenser}{9}
+>>>>>>> 8840d2124345c95515cc5429a4fa0027103db492
 \contentsline {section}{\numberline {10}Referenser}{9}
