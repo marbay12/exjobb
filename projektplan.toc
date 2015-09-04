@@ -4,7 +4,11 @@
 \contentsline {subsection}{\numberline {1.2}Utvecklad produkt}{4}
 \contentsline {subsection}{\numberline {1.3}Syfte och M\IeC {\r a}l}{4}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \contentsline {subsubsection}{\numberline {1.3.1}F\IeC {\"o}retagsm\IeC {\r a}l}{4}
+=======
+\contentsline {subsubsection}{\numberline {1.3.1}F\IeC {\"o}retagsm\IeC {\r a}l}{5}
+>>>>>>> d6ab2b47eb021718861ee7ecbe8affab6ecacd1d
 =======
 \contentsline {subsubsection}{\numberline {1.3.1}F\IeC {\"o}retagsm\IeC {\r a}l}{5}
 >>>>>>> d6ab2b47eb021718861ee7ecbe8affab6ecacd1d
