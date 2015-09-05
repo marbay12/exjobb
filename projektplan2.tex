@@ -1,0 +1,199 @@
+%\documentclass[11pt,a4paper,twoside]{book}
+\documentclass[11pt,a4paper,oneside]{book}
+ %\documentclass[oneside]{book}
+% Misc
+\usepackage[nottoc]{tocbibind} % Bibliography in toc
+\usepackage{makeidx} \usepackage{graphicx} \usepackage{color}
+\usepackage{parskip} \usepackage{natbib}
+\definecolor{hhblue}{RGB}{0,73,133}
+
+% Fancy headers
+\usepackage{fancyhdr} \lhead{\slshape \nouppercase{\rightmark}}
+\rhead{\slshape \nouppercase{\leftmark}}
+
+% AMS Packages
+\usepackage[intlimits]{amsmath} \usepackage{amscd}
+\usepackage{amsxtra} \usepackage{amssymb}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=hhblue,citecolor=hhblue,urlcolor=hhblue}
+
+% Language
+\usepackage[T1]{fontenc} \usepackage[swedish]{babel}
+\usepackage[utf8]{inputenc}
+
+%\iffalse
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{}{0pt}{\Huge}
+  %{\normalfont\huge\bfseries}{}{0pt}{\Huge}
+  {\normalfont\huge\bfseries\color{hhblue}}
+\titlespacing*{\chapter}
+  {0pt}{10pt}{30pt} % changed
+%\fi
+% Font
+\usepackage[sc]{mathpazo} \usepackage{palatino}
+
+% Page setup
+\unitlength=1mm \oddsidemargin 0.0cm \evensidemargin 0.0cm \topskip
+0.0cm \topmargin -0.5cm
+% \headheight 0.0cm \headsep 0.0cm
+\textheight 24.0cm \textwidth 16cm
+\let\cleardoublepage\clearpage
+\setcitestyle{super}
+
+
+\usepackage{float}
+\restylefloat{table}
+
+\setlength{\arraycolsep}{1.4pt}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\frontmatter
+
+% Framsida---------------------------------------------------------------------
+\begin{titlepage}
+  \begin{center}
+  \end{center}
+  \vspace{3cm}
+  \begin{center}
+    \hrule \vspace{0.5cm}
+    {\Huge \bfseries \sffamily \color{hhblue} Projektplan(Raviolimaskin)}\\
+   % \vspace{0.5cm} {\Large\emph{Kanske behövs någon undertext också}}
+    \vspace{0.8cm} \hrule \vspace{2cm} {\Large{Reshad Ahmadi , Maryam Bayat}}\\
+   %\hspace{1.5cm}
+    %{\Large{Kalle Anka}}\\
+    \vspace{2cm}
+    \today\\
+    \vspace{3cm}
+    Examensarbete (Raviolimaskin)\\
+    \vspace{1.5cm}
+    Handledare: Kenneth Nilsson\\
+   %\hspace{1.5cm}
+    %{Tommy Salomonsson}\\ 
+    \vspace{0.5cm} Examinator: Björn Åstrand \vfill
+    \includegraphics[width=3cm]{images/hh_logo.jpg}
+    HÖGSKOLAN I HALMSTAD\\
+    Sektionen för Informationsvetenskap, \\
+    Data- och Elektroteknik
+  \end{center}
+\end{titlepage}
+
+% Sammanfattning----------------------------------------------------------------
+%\chapter{Sammanfattning}
+
+%\chapter{Abstract}
+
+%Here is the nice abstract written in english.
+
+% Förord-----------------------------------------------------------------------
+%\chapter{Förord}
+
+
+%\pagestyle{fancy}
+% Innehållsförteckning---------------------------------------------------------
+%\tableofcontents
+
+%\mainmatter
+
+%Here is the nice abstract written in english.
+
+% Förord-----------------------------------------------------------------------
+%\chapter{Förord}
+
+
+%\pagestyle{fancy}
+% Innehållsförteckning---------------------------------------------------------
+\tableofcontents
+
+\mainmatter
+ ------------------------------------------------------------------------------
+\section{Introduktion}
+\input{chapters/introduktion}
+
+\subsection{Syfte och mål} % Goals
+(Här beskriver du vad som är syftet med ditt projekt. Vad skall du göra? Det skall vara kortfattat (detaljer kommer i senare avsnitt).)
+\input{chapters/syfte}
+
+\subsection{Begränsningar} % Constraints
+Eftersom existerande verktyg används är den enda stora begränsningen den tid det tar att genomföra 
+projektet. Tiden är låst till en deadline som inte kan flyttas, och personalresurser är begränsade. 
+Följaktligen är kvaliteten den enda variabel som kan ändras om projektet löper risk att inte bli klar 
+på utsatt tid.
+%-----------------------------------------------------------
+\newpage
+\section{Problem formulering}
+\input{chapters/kunskapsläge}
+\newpage
+
+
+
+%\begin{itemize}
+% \item Krav nr 1: Bygga en reglercentral som ska ersätta innedelen.
+ %\item Krav nr 2: Reglercentralen ska kommunicera med utedelen enbart med RS-485 via kontakter F1 och F2.
+% \item Krav nr 3: Reglercentralen ska hantera två insignaler. En analog signal mellan 0 till 10 volt och en digital signal.
+% \item Krav nr 4: Reglercentralen ska översätta kompressorns frekvens så att tex 1 volt analog insignal motsvarar 10\% av kompressorn kapacitet, 2 volt 20 \% osv.
+% \item Krav nr 5: Värme eller kylläge på utedelen ska väljas med den digitala insignalen till centralen.\\*
+%\end{itemize}
+
+\section{Avgränsningar}
+Vi avgränsar oss till kommunikation med en utedel, och den analoga signalen ska vara mellan 0-10 Volt.\\
+
+% Ska man citera text använder gör man så här:
+
+%\begin{quote}
+%Här kommer hela citatet
+%\end{quote}
+%\newpage
+\chapter{Bakgrund}
+%\chapter{Teori}
+
+% ------------------------------------------------------------------------------
+%\newpage
+\chapter{Metod}
+%\newpage
+%\chapter{Resultat}
+%\chapter{Avstämning mot projektplan}
+\chapter{Referenser}
+%\input{chapters/referenser}
+%Avstämning mot projektplan
+% ------------------------------------------------------------------------------
+
+\backmatter
+% Referenser--------------------------------------------------------------------
+\begin{thebibliography}{9}
+\bibitem{max_485}
+\href{https://www1.elfa.se/data1/wwwroot/assets/datasheets/jxMAX481E-491E_e.pdf}{MAX485}, Elfa
+\bibitem{OSI}
+\href{http://www.rejas.se/fritis/datorkommunikation/chap_protokoll.html}{OSI}, Rejas
+\bibitem{Duplex}
+\href{ http://en.wikipedia.org/wiki/Duplex_(telecommunications)}{Duplex}, Wikipedia
+\bibitem{arduino}
+\href{http://arduino.cc/en/Main/arduinoBoardDue}{Arduino due}, Arduino
+\bibitem{RS och point-point mm}
+\href{http://www.youtube.com/watch?v=2DQdEHvnqvI}{RS485}, Youtube
+\bibitem{Om RS}
+\href{http://www.ti.com/lit/an/slla070d/slla070d.pdf}{RS485}, Youtube
+\bibitem{OSI modell}
+\href{http://support.microsoft.com/kb/103884 }{RS485}, Youtube
+\bibitem{CRC}
+\href{http://en.wikipedia.org/wiki/Cyclic_redundancy_check }{CRC}, Wikipedia
+\bibitem{Paritet}
+\href{http://en.wikipedia.org/wiki/Parity_bit }{Paritet}, Wikipedia
+\bibitem{Skillnader mellan RS korten}
+\href{http://www.binarteknik.se/produkter/1201.phtml}{RS}, Wikipedia
+\bibitem{RS485}
+\href{http://en.wikipedia.org/wiki/RS-485}{RS485}, Wikipedia
+\bibitem{Seriellt}
+\href{http://www.rejas.se/fritis/datorkommunikation/chap_serpar.html}{Seriell}, Wikipedia
+\iffalse
+\bibitem{HALSALL} FRED HALSALL, {\it THRID EDITION DATA COMMUNICTIONS, COMPUTER NETWORKS AND OPEN SYSTEMS},Addsion wesley, Publishers (1994).
+\bibitem{feynman} R. P. Feynman, {\it Phys. Rev.} {\bf 76}, 749 (1949); {\bf 76}, 769 (1949).
+\fi
+\end{thebibliography}
+
+\end{document}
