@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.3)  5 SEP 2015 19:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.3)  5 SEP 2015 20:45
 entering extended mode
 **projektplan.tex
 (projektplan.tex
@@ -621,7 +621,7 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 65.
 
-<images/hh_logo.jpg, id=31, 866.48718pt x 360.59718pt>
+<images/hh_logo.jpg, id=35, 866.48718pt x 360.59718pt>
 File: images/hh_logo.jpg Graphic file (type jpg)
 
 <use images/hh_logo.jpg>
@@ -689,7 +689,7 @@ Overfull \hbox (0.62338pt too wide) in paragraph at lines 1--2
 in. Ra-vi-o-li är en tra-di-tio-nell ita-li-ensk maträtt
  []
 
-<images/raviolimoldwithfilling.jpg, id=53, 794.97pt x 614.295pt>
+<images/raviolimoldwithfilling.jpg, id=58, 794.97pt x 614.295pt>
 File: images/raviolimoldwithfilling.jpg Graphic file (type jpg)
 
 <use images/raviolimoldwithfilling.jpg>
@@ -697,7 +697,7 @@ Package pdftex.def Info: images/raviolimoldwithfilling.jpg used on input line 9
 .
 (pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
 
-<images/pastamachine.jpg, id=55, 72.5109pt x 96.36pt>
+<images/pastamachine.jpg, id=60, 72.5109pt x 96.36pt>
 File: images/pastamachine.jpg Graphic file (type jpg)
 
 <use images/pastamachine.jpg>
@@ -740,12 +740,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
                                                   \fi \fi 
 l.120 \newpage
                <./images/pastamachine.jpg>] (chapters/kunskapslage.tex
-<images/degform.jpg, id=68, 4077.2325pt x 3071.475pt>
+<images/degform.jpg, id=73, 4077.2325pt x 3071.475pt>
 File: images/degform.jpg Graphic file (type jpg)
  <use images/degform.jpg>
 Package pdftex.def Info: images/degform.jpg used on input line 7.
 (pdftex.def)             Requested size: 326.18527pt x 245.72302pt.
-) (chapters/metodbeskrivning2.tex
+) (chapters/uppgiftSpec.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -763,16 +763,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+) (chapters/metodbeskrivning.tex) [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
  [6
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
  (projektplan.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 
 
 Package rerunfilecheck Warning: File `projektplan.out' has changed.
@@ -780,15 +780,15 @@ Package rerunfilecheck Warning: File `projektplan.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `projektplan.out':
-(rerunfilecheck)             Before: D38D2DD6A10F61114B2A5BAE32467326;411
-(rerunfilecheck)             After:  D2D2EA5125A81889478164F544138EBB;471.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
+(rerunfilecheck)             Before: D2D2EA5125A81889478164F544138EBB;471
+(rerunfilecheck)             After:  DC19810B8C994A426BB20DF83E4A4ABB;546.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
- 7934 strings out of 493673
- 109787 string characters out of 3141528
+ 7939 strings out of 493673
+ 109867 string characters out of 3141528
  199459 words of memory out of 3000000
- 11092 multiletter control sequences out of 15000+200000
+ 11093 multiletter control sequences out of 15000+200000
  28110 words of font info for 56 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  29i,8n,43p,633b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -796,9 +796,9 @@ Here is how much of TeX's memory you used:
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on projektplan.pdf (7 pages, 1190453 bytes).
+Output written on projektplan.pdf (7 pages, 1192185 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
