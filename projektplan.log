@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.31)  6 SEP 2015 12:33
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.3)  6 SEP 2015 12:55
->>>>>>> d29afcd0fbd569f0d8a96f491e801229ac5807ba
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.31)  6 SEP 2015 19:33
 entering extended mode
 **projektplan.tex
 (projektplan.tex
@@ -635,8 +631,8 @@ Package pdftex.def Info: images/hh_logo.jpg used on input line 79.
 
 
 
-{C:/Users/reshad/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/h
-h_logo.jpg>]
+{C:/Users/Mandana/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/
+hh_logo.jpg>]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 103.
  (projektplan.toc
@@ -695,15 +691,12 @@ Overfull \hbox (0.62338pt too wide) in paragraph at lines 1--2
 in. Ra-vi-o-li är en tra-di-tio-nell ita-li-ensk maträtt
  []
 
-<<<<<<< HEAD
-=======
 
 Overfull \hbox (14.71724pt too wide) in paragraph at lines 5--6
 []\T1/ppl/m/n/10.95 Det finns oli-ka ty-per av Ra-vi-o-li-ma-ski-ner på mar-kan
 -den just nu. En typ av Ra-vi-o-li-ma-skin(degform)
  []
 
->>>>>>> d29afcd0fbd569f0d8a96f491e801229ac5807ba
 <images/raviolimoldwithfilling.jpg, id=58, 794.97pt x 614.295pt>
 File: images/raviolimoldwithfilling.jpg Graphic file (type jpg)
 
@@ -740,6 +733,16 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.2 
      <./images/raviolimoldwithfilling.jpg>]) (chapters/Begransningar.tex)
+Overfull \hbox (78.25075pt too wide) in paragraph at lines 5--115
+\T1/ppl/m/n/10.95 ras med an-vänn-d-ning av 3D-skrivare och plast som ma-te-ri-
+al. >>>>>>> d29afcd0fbd569f0d8a96f491e801229ac5807ba
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--115
+
+ []
+
 [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}
 ) has been already used, duplicate ignored
 
@@ -794,22 +797,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `projektplan.out' has not changed.
-<<<<<<< HEAD
 (rerunfilecheck)             Checksum: ED580D79F0D0A49B8A2B87547AF2D848;475.
-=======
-(rerunfilecheck)             Checksum: 916CB7897D6AC5B25174C5FF0018834D;475.
->>>>>>> d29afcd0fbd569f0d8a96f491e801229ac5807ba
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
  7941 strings out of 493673
-<<<<<<< HEAD
  109912 string characters out of 3141524
- 199461 words of memory out of 3000000
-=======
- 109912 string characters out of 3141528
  199462 words of memory out of 3000000
->>>>>>> d29afcd0fbd569f0d8a96f491e801229ac5807ba
  11093 multiletter control sequences out of 15000+200000
  28110 words of font info for 56 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -818,11 +812,7 @@ Here is how much of TeX's memory you used:
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb>
-<<<<<<< HEAD
-Output written on projektplan.pdf (7 pages, 1192053 bytes).
-=======
-Output written on projektplan.pdf (7 pages, 1191327 bytes).
->>>>>>> d29afcd0fbd569f0d8a96f491e801229ac5807ba
+Output written on projektplan.pdf (7 pages, 1192546 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
