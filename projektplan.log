@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.3)  6 SEP 2015 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.3)  6 SEP 2015 13:09
 entering extended mode
 **projektplan.tex
 (projektplan.tex
@@ -718,12 +718,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 109.
- (chapters/syfte.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
-
- []
-
-[1
+ (chapters/syfte.tex [1
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
@@ -733,6 +728,16 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.2 
      <./images/raviolimoldwithfilling.jpg>]) (chapters/Begransningar.tex)
+Overfull \hbox (78.25075pt too wide) in paragraph at lines 5--115
+\T1/ppl/m/n/10.95 ras med an-vänn-d-ning av 3D-skrivare och plast som ma-te-ri-
+al. >>>>>>> d29afcd0fbd569f0d8a96f491e801229ac5807ba
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--115
+
+ []
+
 [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}
 ) has been already used, duplicate ignored
 
@@ -802,7 +807,7 @@ Here is how much of TeX's memory you used:
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on projektplan.pdf (7 pages, 1191342 bytes).
+Output written on projektplan.pdf (7 pages, 1192435 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
