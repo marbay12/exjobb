@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.3)  6 SEP 2015 12:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.3)  6 SEP 2015 12:55
 entering extended mode
 **projektplan.tex
 (projektplan.tex
@@ -732,19 +732,9 @@ has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 
-     <./images/raviolimoldwithfilling.jpg>]
-Overfull \hbox (2.58105pt too wide) in paragraph at lines 3--4
-[]\T1/ppl/m/n/10.95 Det är tänkt att an-vän-da-ren kan an-vän-da oli-ka ty-per 
-av ifyll-nings ma-te-ri-al på ma-ski-nen.(Tanken
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-) (chapters/Begransningar.tex) [2pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.1.2}) has been already used, duplicate ignored
+     <./images/raviolimoldwithfilling.jpg>]) (chapters/Begransningar.tex)
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -797,13 +787,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `projektplan.out' has not changed.
-(rerunfilecheck)             Checksum: ED580D79F0D0A49B8A2B87547AF2D848;475.
+(rerunfilecheck)             Checksum: 916CB7897D6AC5B25174C5FF0018834D;475.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
  7941 strings out of 493673
  109912 string characters out of 3141528
- 199461 words of memory out of 3000000
+ 199462 words of memory out of 3000000
  11093 multiletter control sequences out of 15000+200000
  28110 words of font info for 56 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -812,7 +802,7 @@ Here is how much of TeX's memory you used:
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on projektplan.pdf (7 pages, 1191970 bytes).
+Output written on projektplan.pdf (7 pages, 1191327 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
