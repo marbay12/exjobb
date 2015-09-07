@@ -1,8 +1,15 @@
-Uppgifterna speciferas genom att dela upp projektet i tre stora delar. Det första delen är mekaniken, som består av maskinens formgivning och analys av alla krafter som kommer påverkas på varje del. Kraven på mekaniken speciferas genom att den ska orka bära alla krafter som kommer påverkas på det i en begränsad storlek som maskinen har.\\
+Uppgifterna speciferas genom att dela upp projektet i tre stora delar. Det första delen är mekaniken, som består av maskinens formgivning och analys av alla krafter som kommer påverkas på varje del. Kraven på mekaniken speciferas genom att varje del ska orka bära de krafter som kommer påverka det.\\
 
-Vidare ska finnas elektronik del som består av en krets för att strömförsörja motorer och eventuella reglulator. Krav på elektroniken kan speciferas genom att alla komponenter(motorer och eventuella sensorer) får tillräcklig ström för att fungera rätt, och analog regulatorn ska reglera strömmen som det man bestämmer.\\
+Vidare ska finnas elektronik del som består av en krets för att strömförsörja motorer. Krav på elektroniken kan speciferas genom att alla komponenter(motorer och eventuella sensorer) får tillräcklig ström för att fungera rätt. Det är tänkt att utveckla eventuella reglulator som ska reglera strömmen. Genom att använda regulator kommer man finjustera de värdena som ska avläsas från maskinens sensorer.\\
 
-Programmerings del av projektet tar hand om timingen på ett sätt att olika komponenter fungerar rätt och i rätt tid. Programmerings uppgifter omfattas att läsa av sensorers värde och kontrollera motorer.
+Programmerings del av projektet tar hand om timingen på ett sätt att olika komponenter fungerar rätt och i rätt tid. Programmerings uppgifter omfattas att läsa av sensorers värde och driva motorer.
 
 Följande är det allra första krav på slutprodukten.
 
+\begin{itemize}
+\item Krav nr 1: Bygga en reglercentral som ska ersätta innedelen.
+\item Krav nr 2: Reglercentralen ska kommunicera med utedelen enbart med RS-485 via kontakter F1 och F2.
+\item Krav nr 3: Reglercentralen ska hantera två insignaler. En analog signal mellan 0 till 10 volt och en digital signal.
+\item Krav nr 4: Reglercentralen ska översätta kompressorns frekvens så att tex 1 volt analog insignal motsvarar 10\% av kompressorn kapacitet, 2 volt 20 \% osv.
+\item Krav nr 5: Värme eller kylläge på utedelen ska väljas med den digitala insignalen till centralen.\\*
+\end{itemize}
