@@ -103,18 +103,22 @@
 \tableofcontents
 \mainmatter
 
-\chapter{Introduktion}
+\chapter{Inledning}
 \input{chapters/introduktion}
 
 \section{Syfte och mål} % Goals
 \input{chapters/syfte}
 
-
-\section{Begränsningar} % Constraints
+\section{Avgränsningar} % Constraints
 \input{chapters/Begransningar}
 
 %-----------------------------------------------------------
-\newpage
+
+\chapter{Teori}
+\input{chapters/bakgrund}
+\input{chapters/teori}
+
+
 \chapter{Metod}
 \section{Kunskapsläge}
 \input{chapters/kunskapslage}
@@ -129,7 +133,8 @@
 
 \section{Analys av resultat}
 \input{chapters/resultat_analys}
-\newpage
+\chapter{Tidsplan}
+\input{chapters/tidsplan}
 
 
 
@@ -143,37 +148,10 @@
 
 \backmatter
 % Referenser--------------------------------------------------------------------
-\begin{thebibliography}{9}
+ \bibliographystyle{stylename}
+\begin{thebibliography}{1}
 \bibitem{engproc}
 \href{http://www.wisegeek.com/what-is-ravioli.htm}{http://www.wisegeek.com/what-is-ravioli.htm}, engproc
-\bibitem{max_485}
-\href{https://www1.elfa.se/data1/wwwroot/assets/datasheets/jxMAX481E-491E_e.pdf}{MAX485}, Elfa
-\bibitem{OSI}
-\href{http://www.rejas.se/fritis/datorkommunikation/chap_protokoll.html}{OSI}, Rejas
-\bibitem{Duplex}
-\href{ http://en.wikipedia.org/wiki/Duplex_(telecommunications)}{Duplex}, Wikipedia
-\bibitem{arduino}
-\href{http://arduino.cc/en/Main/arduinoBoardDue}{Arduino due}, Arduino
-\bibitem{RS och point-point mm}
-\href{http://www.youtube.com/watch?v=2DQdEHvnqvI}{RS485}, Youtube
-\bibitem{Om RS}
-\href{http://www.ti.com/lit/an/slla070d/slla070d.pdf}{RS485}, Youtube
-\bibitem{OSI modell}
-\href{http://support.microsoft.com/kb/103884 }{RS485}, Youtube
-\bibitem{CRC}
-\href{http://en.wikipedia.org/wiki/Cyclic_redundancy_check }{CRC}, Wikipedia
-\bibitem{Paritet}
-\href{http://en.wikipedia.org/wiki/Parity_bit }{Paritet}, Wikipedia
-\bibitem{Skillnader mellan RS korten}
-\href{http://www.binarteknik.se/produkter/1201.phtml}{RS}, Wikipedia
-\bibitem{RS485}
-\href{http://en.wikipedia.org/wiki/RS-485}{RS485}, Wikipedia
-\bibitem{Seriellt}
-\href{http://www.rejas.se/fritis/datorkommunikation/chap_serpar.html}{Seriell}, Wikipedia
-\iffalse
-\bibitem{HALSALL} FRED HALSALL, {\it THRID EDITION DATA COMMUNICTIONS, COMPUTER NETWORKS AND OPEN SYSTEMS},Addsion wesley, Publishers (1994).
-\bibitem{feynman} R. P. Feynman, {\it Phys. Rev.} {\bf 76}, 749 (1949); {\bf 76}, 769 (1949).
-\fi
 \end{thebibliography}
 
 \end{document}

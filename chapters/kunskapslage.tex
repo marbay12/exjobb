@@ -1,6 +1,7 @@
-Den Raviolimaskinen som är tänkt att utvecklas för detta projekt består av några viktiga delar. Det består av en pump som ska pumpa fram Raviolis ifyllnings materialet på den utkavlade degen. För detta måste man redogöra hur en pump fungerar, vilkar delar en pump har och hur man ska utforma det för att det ska passar just detta projekt.\medskip
+Raviolimaskinen ska bestå av några mekaniska delar. För att designa maskinens delar ska CAD-tekniker användas. Att använda CAD-tekniker hjälper att rita maskinens olika delar och se resultatet innan man börjar konstruera dem fysiskt. Genom att designa med ett CAD-program, har man också möjligheten att analysera hållfasthet av maskinens delar genom att påverka virtuell kraft på dem. 
 
-En annan del ska vara degformen. På figuren ~\ref{degfrom} visas en degform som används för att knyta degen manuellt genom att trycka på formens sidor. För detta projekt har funderats på att utveckla en degform som kan styras med en eller två motorer. En viktig uppgift är att överföra motorers rörelseenergi till degformen på ett sätt att den får nog kraft för att knyta degen. Det kommer finnas kugghjul för energiöverföringen från motor till degformen. Kunskapen inom olika typer av kugghjul och hur ett kugghjul fungerar ska utvecklas.\medskip
+
+En mekanisk del av maskinen är en degform. Figuren ~\ref{degfrom} visar en dagform som används för att knyta Raviolidegen manuellt genom att trycka på formens sidor. För detta projekt har planerats att en eller två motorer ska trycka degformens sidor. Olika tekniker för att överföra motorers rörelseenergi till Raviolimaskinens degform ska undersökas. 
 
 \begin{figure}[h]
 	\begin{center}
@@ -8,9 +9,11 @@ En annan del ska vara degformen. På figuren ~\ref{degfrom} visas en degform som
 		\caption{Degform för manuell ifyllning}
 		\label{degfrom}	
 	\end{center}
-\end{figure}\medskip
+\end{figure}
 
-För att alla Raviolimaskinens delar ska fungera ihop och varje del gör sin uppgift i rätt tid, måste det finnas en enhet för att kontrollera dem. Kontrol av alla delar görs m.h.a. en mikrokontroller som bestämmer vad som ska hända i varje tidspunkt. Olika typer av mikrokontroller måste analyseras för att hitta den som passar bäst till projektet.
+En annan teknik som ska användas på detta projekt är regleringsteknik. Reglering kommer vara användbar när det gäller att reglera t.ex. den strömmen som går till elektroniska komponenter. Regleringsteknik kan också användas för eventuella systemidentifiering. 
+
+Mikrokontrollern som ska användas för detta projekt är en Arduino Due. Programmeringsspråket ska vara C, men det är tänkt att använda Arduino IDE i fall man inte hinner programmera med C.
 
 
 
