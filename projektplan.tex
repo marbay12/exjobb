@@ -2,9 +2,12 @@
 \documentclass[11pt,a4paper,oneside]{book}
  %\documentclass[oneside]{book}
 % Misc
+
 \usepackage[nottoc]{tocbibind} % Bibliography in toc
-\usepackage{makeidx} \usepackage{graphicx} \usepackage{color}
-\usepackage{parskip} \usepackage{natbib}
+\usepackage{makeidx} 
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{parskip} 
 \definecolor{hhblue}{RGB}{0,73,133}
 
 % Fancy headers
@@ -23,7 +26,6 @@
 \usepackage[T1]{fontenc} \usepackage[swedish]{babel}
 \usepackage[utf8]{inputenc}
 
-%\iffalse
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
   {\normalfont\huge\bfseries}{}{0pt}{\Huge}
@@ -31,7 +33,7 @@
   {\normalfont\huge\bfseries\color{hhblue}}
 \titlespacing*{\chapter}
   {0pt}{10pt}{30pt} % changed
-%\fi
+  
 % Font
 \usepackage[sc]{mathpazo} \usepackage{palatino}
 
@@ -41,7 +43,6 @@
 % \headheight 0.0cm \headsep 0.0cm
 \textheight 24.0cm \textwidth 16cm
 \let\cleardoublepage\clearpage
-\setcitestyle{super}
 
 
 \usepackage{float}
@@ -62,7 +63,7 @@
   \vspace{3cm}
   \begin{center}
     \hrule \vspace{0.5cm}
-    {\Huge \bfseries \sffamily \color{hhblue} Projektplan(Raviolimaskin)}\\
+    {\Huge \bfseries \sffamily \color{hhblue} Bakgrund(Raviolimaskin)}\\
    % \vspace{0.5cm} {\Large\emph{Kanske behövs någon undertext också}}
     \vspace{0.8cm} \hrule \vspace{2cm} {\Large{Reshad Ahmadi , Maryam Bayat}}\\
    %\hspace{1.5cm}
@@ -114,11 +115,19 @@
 
 %-----------------------------------------------------------
 
-\chapter{Teori}
+\chapter{Backgrund}
 \input{chapters/bakgrund}
+\section{Teori}
 \input{chapters/teori}
+\subsection{Pump för fyllning}
+\input{chapters/fyllpump} 
+\newpage
+\subsection{Motordriven degform}
+\input{chapters/motorDrivenDegform}
+\subsection{Styrenhet}
+\input{chapters/mätkort}
 
-
+\iffalse
 \chapter{Metod}
 \section{Kunskapsläge}
 \input{chapters/kunskapslage}
@@ -136,7 +145,7 @@
 \chapter{Tidsplan}
 \input{chapters/tidsplan}
 
-
+\fi
 
 %\begin{itemize}
 % \item Krav nr 1: Bygga en reglercentral som ska ersätta innedelen.
@@ -148,10 +157,31 @@
 
 \backmatter
 % Referenser--------------------------------------------------------------------
- \bibliographystyle{stylename}
+ \bibliographystyle{99}
 \begin{thebibliography}{1}
 \bibitem{engproc}
-\href{http://www.wisegeek.com/what-is-ravioli.htm}{http://www.wisegeek.com/what-is-ravioli.htm}, engproc
+\href{http://www.wisegeek.com/what-is-ravioli.htm}{http://www.wisegeek.com/what-is-ravioli.htm}, Engproc
+\bibitem{likstromsmotor}
+\href{http://www.drivteknik.nu/skolan/motor/stegmotor}{http://www.drivteknik.nu/skolan/motor/stegmotor}, Likströmsmotor
+\bibitem{stegmotor}
+\href{http://www.ne.se.ezproxy.bib.hh.se/uppslagsverk/encyklopedi/l\%C3\%A5ng/stegmotor}{http://www.ne.se.ezproxy.bib.hh.se/uppslagsverk/encyklopedi/l\%C3\%A5ng/stegmotor}, Stegmotor
+\bibitem{Arduino}
+%\href{http://www.lawicel-shop.se/dept/Arduino_74952/SWE/SEK}{http://www.lawicel-shop.se/dept/Arduino_74952/SWE/SEK},Arduino
+\bibitem{Arduino1}
+\href{https://learn.sparkfun.com/tutorials/what-is-an-arduino}{https://learn.sparkfun.com/tutorials/what-is-an-arduino },Arduino1
+
+\bibitem{Arduino2}
+%\href{http://www.lawicel-shop.se/dept/Arduino_74952/SWE/SEK}{http://www.lawicel-shop.se/dept/Arduino_74952/SWE/SEK},Arduino2
+\bibitem{Arduino3}
+\href{https://learn.sparkfun.com/tutorials/what-is-an-arduino}{https://learn.sparkfun.com/tutorials/what-is-an-arduino},Arduino3
+\bibitem{Raspberry}
+\href{https://www.raspberrypi.org/help/what-is-a-raspberry-pi/}{https://www.raspberrypi.org/help/what-is-a-raspberry-pi/},Raspberry
+\bibitem{Raspberry1}
+\href{http://computers.tutsplus.com/tutorials/controlling-dc-motors-using-python-with-a-raspberry-pi--cms-20051}{http://computers.tutsplus.com/tutorials/controlling-dc-motors-using-python-with-a-raspberry-pi--cms-20051}, Raspberry1
+
+\bibitem{kugghjul pump}
+\href{http://hj.diva-portal.org/smash/get/diva2:219806/FULLTEXT01.pdf}{http://hj.diva-portal.org/smash/get/diva2:219806/FULLTEXT01.pdf},kugghjul pump
 \end{thebibliography}
+
 
 \end{document}
