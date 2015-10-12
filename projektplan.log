@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.3)  9 OCT 2015 10:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.3)  11 OCT 2015 22:48
 entering extended mode
 **projektplan.tex
 (projektplan.tex
@@ -614,7 +614,7 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 66.
 
-<images/hh_logo.jpg, id=43, 866.48718pt x 360.59718pt>
+<images/hh_logo.jpg, id=99, 866.48718pt x 360.59718pt>
 File: images/hh_logo.jpg Graphic file (type jpg)
 
 <use images/hh_logo.jpg>
@@ -684,7 +684,7 @@ Overfull \hbox (0.62338pt too wide) in paragraph at lines 1--2
 in. Ra-vi-o-li ‰r en tra-di-tio-nell ita-li-ensk matr‰tt
  []
 
-<images/raviolimoldwithfilling.jpg, id=68, 794.97pt x 614.295pt>
+<images/raviolimoldwithfilling.jpg, id=138, 794.97pt x 614.295pt>
 File: images/raviolimoldwithfilling.jpg Graphic file (type jpg)
 
 <use images/raviolimoldwithfilling.jpg>
@@ -692,7 +692,7 @@ Package pdftex.def Info: images/raviolimoldwithfilling.jpg used on input line 1
 0.
 (pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
 
-<images/pastamachine.jpg, id=70, 72.5109pt x 96.36pt>
+<images/pastamachine.jpg, id=140, 72.5109pt x 96.36pt>
 File: images/pastamachine.jpg Graphic file (type jpg)
 
 <use images/pastamachine.jpg>
@@ -731,7 +731,7 @@ l.115
        <./images/pastamachine.jpg>] [3]
 Kapitel 2.
 (chapters/bakgrund.tex
-<images/ravioli_machine_comment.jpg, id=88, 813.79031pt x 594.72188pt>
+<images/ravioli_machine_comment.jpg, id=158, 813.79031pt x 594.72188pt>
 File: images/ravioli_machine_comment.jpg Graphic file (type jpg)
 
 <use images/ravioli_machine_comment.jpg>
@@ -739,7 +739,7 @@ Package pdftex.def Info: images/ravioli_machine_comment.jpg used on input line
 7.
 (pdftex.def)             Requested size: 325.51036pt x 237.88454pt.
 
-<images/industriell_machine_comment.jpg, id=90, 856.19875pt x 770.88pt>
+<images/industriell_machine_comment.jpg, id=160, 856.19875pt x 770.88pt>
 File: images/industriell_machine_comment.jpg Graphic file (type jpg)
 
 <use images/industriell_machine_comment.jpg>
@@ -758,12 +758,15 @@ l.2
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 122.
  (chapters/fyllpump.tex
-<images/maxresdefault.jpg, id=98, 341.77687pt x 560.0925pt>
+<images/maxresdefault.jpg, id=168, 341.77687pt x 560.0925pt>
 File: images/maxresdefault.jpg Graphic file (type jpg)
 
 <use images/maxresdefault.jpg>
 Package pdftex.def Info: images/maxresdefault.jpg used on input line 14.
 (pdftex.def)             Requested size: 170.88802pt x 280.04556pt.
+
+
+LaTeX Warning: Reference `Dosering pump' on page 5 undefined on input line 15.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -775,11 +778,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
                                                   \fi \fi 
 l.20 \newpage
               <./images/industriell_machine_comment.jpg>]
-<images/68637(1).jpg, id=107, 630.355pt x 661.47125pt>
+<images/68637(1).jpg, id=177, 630.355pt x 661.47125pt>
 File: images/68637(1).jpg Graphic file (type jpg)
 
 <use images/68637(1).jpg>
-Package pdftex.def Info: images/68637(1).jpg used on input line 26.
+Package pdftex.def Info: images/68637(1).jpg used on input line 28.
 (pdftex.def)             Requested size: 157.58836pt x 165.3674pt.
 ) [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 3}) has been already used, duplicate ignored
@@ -795,7 +798,7 @@ l.124 \newpage
 l.124 \newpage
                <./images/maxresdefault.jpg> <./images/68637(1).jpg>]
 (chapters/motorDrivenDegform.tex
-<images/ravioli_mould_trimed_1.jpg, id=115, 554.07pt x 245.91875pt>
+<images/ravioli_mould_trimed_1.jpg, id=185, 554.07pt x 245.91875pt>
 File: images/ravioli_mould_trimed_1.jpg Graphic file (type jpg)
 
 <use images/ravioli_mould_trimed_1.jpg>
@@ -812,59 +815,165 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
 [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.9 	\item T
-            illg√•ng till Arduinos IDE  och rik tillg√•ng till Arduinos bibl...
- <./images/ravioli_mould_trimed_1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+l.6 
+     <./images/ravioli_mould_trimed_1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-) [8]
-Overfull \hbox (4.06978pt too wide) in paragraph at lines 167--168
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+) (chapters/kommunikation.tex) [8]
+Kapitel 3.
+(chapters/princip.tex
+<images/blockschema.png, id=206, 544.28343pt x 197.98969pt>
+File: images/blockschema.png Graphic file (type png)
+
+<use images/blockschema.png>
+Package pdftex.def Info: images/blockschema.png used on input line 5.
+(pdftex.def)             Requested size: 435.42734pt x 158.39195pt.
+) (chapters/maskinenspump.tex)
+(chapters/motordriven_degform.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+[9
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 
+     <./images/blockschema.png>]
+<images/maskinenshiss.jpg, id=215, 460.72125pt x 526.96875pt>
+File: images/maskinenshiss.jpg Graphic file (type jpg)
+
+<use images/maskinenshiss.jpg>
+Package pdftex.def Info: images/maskinenshiss.jpg used on input line 7.
+(pdftex.def)             Requested size: 368.5775pt x 421.57556pt.
+) (chapters/maskindesign.tex
+<images/hissEdited.png, id=216, 523.9575pt x 444.4605pt>
+File: images/hissEdited.png Graphic file (type png)
+
+<use images/hissEdited.png>
+Package pdftex.def Info: images/hissEdited.png used on input line 4.
+(pdftex.def)             Requested size: 419.16656pt x 355.56888pt.
+) [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.141 \section{Tillverknings av maskinens delar}
+                                                 <./images/maskinenshiss.jpg>]
+(chapters/tillverknings_av_maskinens_delar.tex) (chapters/styrenhet.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 
+     <./images/hissEdited.png>]) [12]
+Kapitel 4.
+(chapters/resultat_analys.tex) [13
+
+]
+Kapitel 5.
+(chapters/tidsplan.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
+<images/tidsplan.png, id=237, 931.98187pt x 501.37312pt>
+File: images/tidsplan.png Graphic file (type png)
+
+<use images/tidsplan.png>
+Package pdftex.def Info: images/tidsplan.png used on input line 7.
+(pdftex.def)             Requested size: 465.98979pt x 250.68594pt.
+
+Overfull \hbox (10.74571pt too wide) in paragraph at lines 7--9
+ [] 
+ []
+
+) [14
+
+ <./images/tidsplan.png>]
+Overfull \hbox (4.06978pt too wide) in paragraph at lines 174--175
 [][][]\T1/ppl/m/n/10.95 http://www.ne.se.ezproxy.bib.hh.se/uppslagsverk/encyklo
 pedi/l%C3%A5ng/stegmotor[][],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 [][][]\T1/ppl/m/n/10.95 http://computers.tutsplus.com/tutorials/controlling-dc-
 motors-using-python-with-a-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-[9
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+[15
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
  (projektplan.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
-Package rerunfilecheck Info: File `projektplan.out' has not changed.
-(rerunfilecheck)             Checksum: EBE4B2517EDA43B60F2648E30B62E3AD;614.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+
+
+Package rerunfilecheck Warning: File `projektplan.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `projektplan.out':
+(rerunfilecheck)             Before: A90B95E0913C5C2EEEA611D2A3FA4741;1483
+(rerunfilecheck)             After:  28F85BD0E391A8B997E8457D48D484BC;1483.
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
  ) 
 Here is how much of TeX's memory you used:
- 7669 strings out of 493673
- 107088 string characters out of 3141528
- 194365 words of memory out of 3000000
- 10804 multiletter control sequences out of 15000+200000
+ 7761 strings out of 493673
+ 108718 string characters out of 3141528
+ 196728 words of memory out of 3000000
+ 10840 multiletter control sequences out of 15000+200000
  29141 words of font info for 58 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,8n,43p,829b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on projektplan.pdf (11 pages, 823865 bytes).
+ 29i,8n,43p,651b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsection.3.4.1} has been referenced but does no
+t exist, replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on projektplan.pdf (17 pages, 1020712 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 253 words of extra memory for PDF output out of 10000 (max. 10000000)
 
