@@ -10,16 +10,20 @@
 \contentsline {subsection}{\numberline {2.2.3}Styrenhet}{7}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}kommunikation med anv\IeC {\"a}ndaren}{8}{subsection.2.2.4}
 \contentsline {chapter}{\numberline {3}Metod}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Princip}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Maskinens pump f\IeC {\"o}r fyllning}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Motordriven degform}{10}{section.3.3}
-\contentsline {section}{\numberline {3.4}Design av maskin}{10}{section.3.4}
-\contentsline {section}{\numberline {3.5}Tillverknings av maskinens delar}{11}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Sensor}{11}{subsection.3.5.1}
-\contentsline {section}{\numberline {3.6}Styrenhet}{11}{section.3.6}
-\contentsline {section}{\numberline {3.7}Blockscema}{12}{section.3.7}
+\contentsline {section}{\numberline {3.1}Maskinens pump f\IeC {\"o}r fyllning}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Motordriven degform}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}Design av maskin}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Tillverknings av maskinens delar}{11}{section.3.4}
+\contentsline {section}{\numberline {3.5}Sensor}{11}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Str\IeC {\"o}mavl\IeC {\"a}sning}{11}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}IR-sensor}{12}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Styrenhet}{12}{section.3.6}
+\contentsline {section}{\numberline {3.7}Blockschema}{12}{section.3.7}
 \contentsline {section}{\numberline {3.8}Testning}{12}{section.3.8}
 \contentsline {chapter}{\numberline {4}Hittlis resultat}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Analys av resultat}{13}{section.4.1}
-\contentsline {chapter}{\numberline {5}Tidsplan}{14}{chapter.5}
-\contentsline {chapter}{Litteraturf\"orteckning}{15}{chapter*.2}
+\contentsline {section}{\numberline {4.1}Maskinens design}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Prototyp}{14}{section.4.2}
+\contentsline {section}{\numberline {4.3}kommunikation och styrning}{14}{section.4.3}
+\contentsline {section}{\numberline {4.4}Val av sensorer}{15}{section.4.4}
+\contentsline {section}{\numberline {4.5}Design}{15}{section.4.5}
+\contentsline {chapter}{Litteraturf\"orteckning}{16}{chapter*.2}

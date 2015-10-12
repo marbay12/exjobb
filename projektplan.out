@@ -9,16 +9,20 @@
 \BOOKMARK [2][-]{subsection.2.2.3}{Styrenhet}{section.2.2}% 9
 \BOOKMARK [2][-]{subsection.2.2.4}{kommunikation med anv\344ndaren}{section.2.2}% 10
 \BOOKMARK [0][-]{chapter.3}{Metod}{}% 11
-\BOOKMARK [1][-]{section.3.1}{Princip}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{Maskinens pump f\366r fyllning}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.3}{Motordriven degform}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.4}{Design av maskin}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.5}{Tillverknings av maskinens delar}{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.5.1}{Sensor}{section.3.5}% 17
-\BOOKMARK [1][-]{section.3.6}{Styrenhet}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.7}{Blockscema}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.8}{Testning}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{Hittlis resultat}{}% 21
-\BOOKMARK [1][-]{section.4.1}{Analys av resultat}{chapter.4}% 22
-\BOOKMARK [0][-]{chapter.5}{Tidsplan}{}% 23
-\BOOKMARK [0][-]{chapter*.2}{Litteraturf\366rteckning}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Maskinens pump f\366r fyllning}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{Motordriven degform}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{Design av maskin}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.4}{Tillverknings av maskinens delar}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.5}{Sensor}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.5.1}{Str\366mavl\344sning}{section.3.5}% 17
+\BOOKMARK [2][-]{subsection.3.5.2}{IR-sensor}{section.3.5}% 18
+\BOOKMARK [1][-]{section.3.6}{Styrenhet}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.7}{Blockschema}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.8}{Testning}{chapter.3}% 21
+\BOOKMARK [0][-]{chapter.4}{Hittlis resultat}{}% 22
+\BOOKMARK [1][-]{section.4.1}{Maskinens design}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Prototyp}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.3}{kommunikation och styrning}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.4}{Val av sensorer}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.5}{Design}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter*.2}{Litteraturf\366rteckning}{}% 28
