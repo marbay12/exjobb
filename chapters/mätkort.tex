@@ -1,18 +1,19 @@
-För att Raviolimaskinen ska fungera krävs en styrenhet. Styrenheten ska kunna driva motorer för att öppna och stänga degformen  och kunna pumpa fram fyllningsmaterialet.
+För att Raviolimaskinen ska fungera krävs en styrenhet. Styrenheten ska kunna driva motorer för att öppna och stänga degformen samt att kunna pumpa fram fyllningsmaterialet.
 
-Maskinstyrning delas in  i två kategorier, centralstyrning och sekvensstyrning.Vid centralstyrning eller tidsbaserade styrning ges order i tidsföljd utan krav på kvittering. Andra typen är sekvensstyrning, där varje nytt steg initieras av kvittering som anger  att order i föregående steget bilivit utförd.
+\textbf{Maskinstyrning}\\
+Maskinstyrning delas in  i två kategorier, centralstyrning och sekvensstyrning.Vid centralstyrning eller tidsbaserade styrning ges order i tidsföljd utan krav på kvittering. Andra typen är sekvensstyrning, där varje nytt steg initieras av kvittering som anger  att order i föregående steget blivit utförd.
 
-Raviolimaskinen styrs genom en sekvensstyrning, där tex. ska fyllningsmaterial pumpas fram på degen innan formen tillslutas. Nedan jämförs olika modeller av styrenheter som passar för sekvensstyrning.
+Raviolimaskinen styrs genom en sekvensstyrning, där t.ex. ska fyllningsmaterial pumpas fram på degen innan formen tillslutas. Nedan jämförs olika modeller av styrenheter som passar för sekvensstyrning.
 
 \textbf{Arduino due}\\
-Arduino är en plattform baserad på öppen källkod och hårdvara. Den består av en  programmerbar kretskort (mikro) och programvara. På kortet finns olika typer av I/O pinnar. Analoga, digitala och  PWM (Pulse-Width Modulation)för drivning av motorer. Arduino Due kan interagera med knappar, lysdioder, motorer, högtalare, GPS-enheter, kameror och internet. Det finns okcså inbyggt stöd för LCD, I2C, SPI, timers, Wifi.
+Arduino är en plattform baserad på öppen källkod och hårdvara. Den består av en  programmerbar kretskort (mikro) och programvara. På kortet finns analoga och digitala I/O pinnar och  PWM (Pulse-Width Modulation)för drivning av motorer. Arduino Due kan interagera med knappar, lysdioder, motorer, högtalare, GPS-enheter, kameror och internet. Det finns okcså inbyggt stöd för LCD, I2C, SPI och timers.
 
-Utvecklingsmjlön för Arduino är Arduino IDE (Integrated Development Environment) som körs på  dator. Den används för att skriva och ladda upp programkod till plattformen \cite{Arduino1}. Man programmerar i Arduinos egen miljö och programmeringsspråket bygger på  C/C++ där man har många färdiga rutiner som gör det enkelt att programmera\cite{Arduino2}. Editorn fungerar dessutom i alla operativsystem (Windows, MacOC och Linux). 
+Utvecklingsmjlön för Arduino är Arduino IDE (Integrated Development Environment) som körs på  dator. Den används för att skriva och ladda upp programkod till plattformen \cite{Arduino1}. Man programmerar i Arduinos egen miljö och programmeringsspråket bygger på  C/C++ där man har många färdiga rutiner som gör det enkelt att programmera\cite{Arduino2}. Editorn fungerar dessutom i alla operativsystem (Windows, MacOS och Linux). 
  
-\textbf{Rassbery pi}\\
-Rasberry pi är enkortsdator som ansluts till en datorskärm, och använder ett vanligt tangentbord och mus. Den  används som en vanlig dator och  är kapabel att göra allt som en stationär dator. Raspberry Pi har inget inbyggt minne för operativsystemet och filer, istället används ett externt SD-kort för fillagring. På kortet sitter 26 stycken pinnar som kallas för GPIO(General purpose input/output) . Några av dessa pinnar har extra funktioner såsom en I2C-buss, SPI buss och UART seriella anslutningar\cite{Raspberry1}.
+\textbf{Raspberry pi}\\
+Raspberry pi är enkortsdator som ansluts till en datorskärm, och använder ett vanligt tangentbord och mus. Den  används som en vanlig dator och  är kapabel att göra allt som en stationär dator gör. Raspberry pi har inget inbyggt minne för operativsystemet och filer, istället används ett externt SD-kort för fillagring. På kortet sitter 26 stycken pinnar som kallas för GPIO(General purpose input/output) . Några av dessa pinnar har extra funktioner såsom en I2C-buss, SPI buss och UART seriella anslutningar\cite{Raspberry1}.
 
-Oprerativsystem för Rassbery pi heter Linux. Det finns möglighet att programmera språk som Scratch och Python.
+Raspberry pi är en Linux-baseratoprerativsystem och det primära programmeringspråket är Scratch och Python, men det är möglighet att programmera i C/C++.
 
 \textbf{PLC (Programmable Logical Controller) }\\
-PLC är en programmerbar dator för styrning av industriella maskiner/processer. Detta består av en centralenhet , ett minne , ingångar som kan ta elektriska signaler och utgångar som sänder ut signaler. Centralenheten läser givare genom ingångskortet, och styr systemet genom de givna instruktionerna och reglerar utsignalerna därefter .Användarområderna  är främst till automation (Mekanisering) inom industri och hissanordningar.
+PLC är en programmerbar dator för styrning av industriella maskiner/processer. Detta består av en centralenhet, ett minne, ingångar som kan ta elektriska signaler och utgångar som sänder ut signaler. Centralenheten läser givare genom ingångskortet, styr systemet genom de givna instruktionerna och reglerar utsignalerna därefter. Användarområderna  är främst till automation (Mekanisering) inom industri och hissanordningar.
